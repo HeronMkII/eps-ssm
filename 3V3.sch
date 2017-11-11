@@ -1,0 +1,666 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:power_management
+LIBS:general_ssm
+LIBS:ina214
+LIBS:tps61088
+LIBS:eps_v1-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LM21215 U?
+U 1 1 59EA2044
+P 4050 2000
+F 0 "U?" H 3650 2550 60  0000 C CNN
+F 1 "LM21215" H 3850 1450 60  0000 C CNN
+F 2 "" H 4250 1950 60  0001 C CNN
+F 3 "" H 4250 1950 60  0001 C CNN
+	1    4050 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L L L?
+U 1 1 59EA204B
+P 5000 1450
+F 0 "L?" V 4950 1450 50  0000 C CNN
+F 1 "1.5uH" V 5050 1450 50  0000 C CNN
+F 2 "" H 5000 1450 50  0001 C CNN
+F 3 "" H 5000 1450 50  0001 C CNN
+	1    5000 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small Cin?
+U 1 1 59EA2052
+P 2400 1550
+F 0 "Cin?" H 2410 1620 50  0000 L CNN
+F 1 "47uF" H 2410 1470 50  0000 L CNN
+F 2 "" H 2400 1550 50  0001 C CNN
+F 3 "" H 2400 1550 50  0001 C CNN
+	1    2400 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small Cf?
+U 1 1 59EA2059
+P 2900 2100
+F 0 "Cf?" H 2910 2170 50  0000 L CNN
+F 1 "100nF" H 2910 2020 50  0000 L CNN
+F 2 "" H 2900 2100 50  0001 C CNN
+F 3 "" H 2900 2100 50  0001 C CNN
+	1    2900 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small Cc?
+U 1 1 59EA2060
+P 6250 1650
+F 0 "Cc?" H 6260 1720 50  0000 L CNN
+F 1 "390pF" H 6260 1570 50  0000 L CNN
+F 2 "" H 6250 1650 50  0001 C CNN
+F 3 "" H 6250 1650 50  0001 C CNN
+	1    6250 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small Cc?
+U 1 1 59EA2067
+P 5150 2150
+F 0 "Cc?" H 5160 2220 50  0000 L CNN
+F 1 "680pF" H 5160 2070 50  0000 L CNN
+F 2 "" H 5150 2150 50  0001 C CNN
+F 3 "" H 5150 2150 50  0001 C CNN
+	1    5150 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small Cc?
+U 1 1 59EA206E
+P 5350 2350
+F 0 "Cc?" H 5360 2420 50  0000 L CNN
+F 1 "13pF" H 5360 2270 50  0000 L CNN
+F 2 "" H 5350 2350 50  0001 C CNN
+F 3 "" H 5350 2350 50  0001 C CNN
+	1    5350 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small Cout?
+U 1 1 59EA2075
+P 6850 2050
+F 0 "Cout?" H 6860 2120 50  0000 L CNN
+F 1 "10uF" H 6860 1970 50  0000 L CNN
+F 2 "" H 6850 2050 50  0001 C CNN
+F 3 "" H 6850 2050 50  0001 C CNN
+	1    6850 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small Cout?
+U 1 1 59EA207C
+P 7200 2050
+F 0 "Cout?" H 7210 2120 50  0000 L CNN
+F 1 "10uF" H 7210 1970 50  0000 L CNN
+F 2 "" H 7200 2050 50  0001 C CNN
+F 3 "" H 7200 2050 50  0001 C CNN
+	1    7200 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small Rf?
+U 1 1 59EA2083
+P 2900 1650
+F 0 "Rf?" H 2930 1670 50  0000 L CNN
+F 1 "10" H 2930 1610 50  0000 L CNN
+F 2 "" H 2900 1650 50  0001 C CNN
+F 3 "" H 2900 1650 50  0001 C CNN
+	1    2900 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small Rilim?
+U 1 1 59EA208A
+P 3200 2650
+F 0 "Rilim?" H 3230 2670 50  0000 L CNN
+F 1 "71.5k" H 3230 2610 50  0000 L CNN
+F 2 "" H 3200 2650 50  0001 C CNN
+F 3 "" H 3200 2650 50  0001 C CNN
+	1    3200 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small Rc?
+U 1 1 59EA2091
+P 5550 2150
+F 0 "Rc?" H 5580 2170 50  0000 L CNN
+F 1 "6.04k" H 5580 2110 50  0000 L CNN
+F 2 "" H 5550 2150 50  0001 C CNN
+F 3 "" H 5550 2150 50  0001 C CNN
+	1    5550 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small Rc?
+U 1 1 59EA2098
+P 6250 1950
+F 0 "Rc?" H 6280 1970 50  0000 L CNN
+F 1 "107" H 6280 1910 50  0000 L CNN
+F 2 "" H 6250 1950 50  0001 C CNN
+F 3 "" H 6250 1950 50  0001 C CNN
+	1    6250 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small Rfbt?
+U 1 1 59EA209F
+P 6000 1650
+F 0 "Rfbt?" H 6030 1670 50  0000 L CNN
+F 1 "12k" H 6030 1610 50  0000 L CNN
+F 2 "" H 6000 1650 50  0001 C CNN
+F 3 "" H 6000 1650 50  0001 C CNN
+	1    6000 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small Rfbb?
+U 1 1 59EA20A6
+P 6000 2500
+F 0 "Rfbb?" H 6030 2520 50  0000 L CNN
+F 1 "2.67k" H 6030 2460 50  0000 L CNN
+F 2 "" H 6000 2500 50  0001 C CNN
+F 3 "" H 6000 2500 50  0001 C CNN
+	1    6000 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small Rpgood?
+U 1 1 59EA20AD
+P 4900 2450
+F 0 "Rpgood?" H 4930 2470 50  0000 L CNN
+F 1 "100k" H 4930 2410 50  0000 L CNN
+F 2 "" H 4900 2450 50  0001 C CNN
+F 3 "" H 4900 2450 50  0001 C CNN
+	1    4900 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59EA20B4
+P 4300 2900
+F 0 "#PWR?" H 4300 2650 50  0001 C CNN
+F 1 "GND" H 4300 2750 50  0000 C CNN
+F 2 "" H 4300 2900 50  0001 C CNN
+F 3 "" H 4300 2900 50  0001 C CNN
+	1    4300 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 59EA20BA
+P 6850 1450
+F 0 "#PWR?" H 6850 1300 50  0001 C CNN
+F 1 "+3V3" H 6850 1590 50  0000 C CNN
+F 2 "" H 6850 1450 50  0001 C CNN
+F 3 "" H 6850 1450 50  0001 C CNN
+	1    6850 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L +PACK #PWR?
+U 1 1 59EA20C0
+P 4900 2550
+F 0 "#PWR?" H 4900 2400 50  0001 C CNN
+F 1 "+PACK" H 4900 2690 50  0000 C CNN
+F 2 "" H 4900 2550 50  0001 C CNN
+F 3 "" H 4900 2550 50  0001 C CNN
+	1    4900 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L +BATT #PWR?
+U 1 1 59EA20C6
+P 2400 1450
+F 0 "#PWR?" H 2400 1300 50  0001 C CNN
+F 1 "+BATT" H 2400 1590 50  0000 C CNN
+F 2 "" H 2400 1450 50  0001 C CNN
+F 3 "" H 2400 1450 50  0001 C CNN
+	1    2400 1450
+	1    0    0    -1  
+$EndComp
+Text Notes 6800 3050 0    60   ~ 0
+3V3 SUPPLY
+$Comp
+L LM21215 U?
+U 1 1 59EA20CD
+P 4050 4200
+F 0 "U?" H 3650 4850 60  0000 C CNN
+F 1 "LM21215" H 3800 3450 60  0000 C CNN
+F 2 "" H 4400 4650 60  0001 C CNN
+F 3 "" H 4400 4650 60  0001 C CNN
+	1    4050 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small Rf?
+U 1 1 59EA20D4
+P 2900 3850
+F 0 "Rf?" H 2930 3870 50  0000 L CNN
+F 1 "10" H 2930 3810 50  0000 L CNN
+F 2 "" H 2900 3850 50  0001 C CNN
+F 3 "" H 2900 3850 50  0001 C CNN
+	1    2900 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small Cin?
+U 1 1 59EA20DB
+P 2400 3750
+F 0 "Cin?" H 2410 3820 50  0000 L CNN
+F 1 "47uF" H 2410 3670 50  0000 L CNN
+F 2 "" H 2400 3750 50  0001 C CNN
+F 3 "" H 2400 3750 50  0001 C CNN
+	1    2400 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small Rilim?
+U 1 1 59EA20E2
+P 3200 4850
+F 0 "Rilim?" H 3230 4870 50  0000 L CNN
+F 1 "71.5k" H 3230 4810 50  0000 L CNN
+F 2 "" H 3200 4850 50  0001 C CNN
+F 3 "" H 3200 4850 50  0001 C CNN
+	1    3200 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small Cf?
+U 1 1 59EA20E9
+P 2900 4300
+F 0 "Cf?" H 2910 4370 50  0000 L CNN
+F 1 "100nF" H 2910 4220 50  0000 L CNN
+F 2 "" H 2900 4300 50  0001 C CNN
+F 3 "" H 2900 4300 50  0001 C CNN
+	1    2900 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59EA20F0
+P 4300 5100
+F 0 "#PWR?" H 4300 4850 50  0001 C CNN
+F 1 "GND" H 4300 4950 50  0000 C CNN
+F 2 "" H 4300 5100 50  0001 C CNN
+F 3 "" H 4300 5100 50  0001 C CNN
+	1    4300 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L L L?
+U 1 1 59EA20F6
+P 5000 3650
+F 0 "L?" V 4950 3650 50  0000 C CNN
+F 1 "1.5uH" V 5050 3650 50  0000 C CNN
+F 2 "" H 5000 3650 50  0001 C CNN
+F 3 "" H 5000 3650 50  0001 C CNN
+	1    5000 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small Rfbt?
+U 1 1 59EA20FD
+P 5950 3850
+F 0 "Rfbt?" H 5980 3870 50  0000 L CNN
+F 1 "12k" H 5980 3810 50  0000 L CNN
+F 2 "" H 5950 3850 50  0001 C CNN
+F 3 "" H 5950 3850 50  0001 C CNN
+	1    5950 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small Cc?
+U 1 1 59EA2104
+P 6250 3850
+F 0 "Cc?" H 6260 3920 50  0000 L CNN
+F 1 "390pF" H 6260 3770 50  0000 L CNN
+F 2 "" H 6250 3850 50  0001 C CNN
+F 3 "" H 6250 3850 50  0001 C CNN
+	1    6250 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small Rc?
+U 1 1 59EA210B
+P 6250 4150
+F 0 "Rc?" H 6280 4170 50  0000 L CNN
+F 1 "107" H 6280 4110 50  0000 L CNN
+F 2 "" H 6250 4150 50  0001 C CNN
+F 3 "" H 6250 4150 50  0001 C CNN
+	1    6250 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small Rfbb?
+U 1 1 59EA2112
+P 5950 4700
+F 0 "Rfbb?" H 5980 4720 50  0000 L CNN
+F 1 "2.67k" H 5980 4660 50  0000 L CNN
+F 2 "" H 5950 4700 50  0001 C CNN
+F 3 "" H 5950 4700 50  0001 C CNN
+	1    5950 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small Cc?
+U 1 1 59EA2119
+P 5150 4350
+F 0 "Cc?" H 5160 4420 50  0000 L CNN
+F 1 "680pF" H 5160 4270 50  0000 L CNN
+F 2 "" H 5150 4350 50  0001 C CNN
+F 3 "" H 5150 4350 50  0001 C CNN
+	1    5150 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small Rc?
+U 1 1 59EA2120
+P 5550 4350
+F 0 "Rc?" H 5580 4370 50  0000 L CNN
+F 1 "6.04k" H 5580 4310 50  0000 L CNN
+F 2 "" H 5550 4350 50  0001 C CNN
+F 3 "" H 5550 4350 50  0001 C CNN
+	1    5550 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small Rpgood?
+U 1 1 59EA2127
+P 4900 4650
+F 0 "Rpgood?" H 4930 4670 50  0000 L CNN
+F 1 "100k" H 4930 4610 50  0000 L CNN
+F 2 "" H 4900 4650 50  0001 C CNN
+F 3 "" H 4900 4650 50  0001 C CNN
+	1    4900 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L +PACK #PWR?
+U 1 1 59EA212E
+P 4900 4750
+F 0 "#PWR?" H 4900 4600 50  0001 C CNN
+F 1 "+PACK" H 4900 4890 50  0000 C CNN
+F 2 "" H 4900 4750 50  0001 C CNN
+F 3 "" H 4900 4750 50  0001 C CNN
+	1    4900 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 59EA2134
+P 6850 3650
+F 0 "#PWR?" H 6850 3500 50  0001 C CNN
+F 1 "+3V3" H 6850 3790 50  0000 C CNN
+F 2 "" H 6850 3650 50  0001 C CNN
+F 3 "" H 6850 3650 50  0001 C CNN
+	1    6850 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small Cout?
+U 1 1 59EA213A
+P 6850 4250
+F 0 "Cout?" H 6860 4320 50  0000 L CNN
+F 1 "10uF" H 6860 4170 50  0000 L CNN
+F 2 "" H 6850 4250 50  0001 C CNN
+F 3 "" H 6850 4250 50  0001 C CNN
+	1    6850 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small Cout?
+U 1 1 59EA2141
+P 7200 4250
+F 0 "Cout?" H 7210 4320 50  0000 L CNN
+F 1 "10uF" H 7210 4170 50  0000 L CNN
+F 2 "" H 7200 4250 50  0001 C CNN
+F 3 "" H 7200 4250 50  0001 C CNN
+	1    7200 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +BATT #PWR?
+U 1 1 59EA2148
+P 2400 3650
+F 0 "#PWR?" H 2400 3500 50  0001 C CNN
+F 1 "+BATT" H 2400 3790 50  0000 C CNN
+F 2 "" H 2400 3650 50  0001 C CNN
+F 3 "" H 2400 3650 50  0001 C CNN
+	1    2400 3650
+	1    0    0    -1  
+$EndComp
+Text Notes 6800 5250 0    60   ~ 0
+3V3 SUPPLY
+Wire Wire Line
+	3200 2550 3200 2450
+Wire Wire Line
+	3200 2450 3400 2450
+Wire Wire Line
+	3400 1450 3400 1850
+Connection ~ 3400 1650
+Connection ~ 3400 1550
+Wire Wire Line
+	2400 1450 3400 1450
+Wire Wire Line
+	2900 1550 2900 1450
+Connection ~ 2900 1450
+Wire Wire Line
+	2900 2000 2900 1750
+Wire Wire Line
+	3400 2000 2900 2000
+Wire Wire Line
+	4650 1450 4650 1950
+Connection ~ 4650 1850
+Connection ~ 4650 1750
+Connection ~ 4650 1650
+Connection ~ 4650 1550
+Wire Wire Line
+	4650 1450 4850 1450
+Wire Wire Line
+	6000 1550 6250 1550
+Wire Wire Line
+	6250 1750 6250 1850
+Wire Wire Line
+	6000 1750 6000 2400
+Wire Wire Line
+	4650 2050 6250 2050
+Wire Wire Line
+	4650 2350 4650 2900
+Connection ~ 4650 2450
+Connection ~ 4650 2550
+Wire Wire Line
+	5250 2150 5450 2150
+Wire Wire Line
+	5450 2350 5650 2350
+Wire Wire Line
+	5650 2350 5650 2150
+Wire Wire Line
+	5250 2350 5050 2350
+Wire Wire Line
+	5050 2350 5050 2150
+Wire Wire Line
+	5050 2150 4650 2150
+Wire Wire Line
+	5650 2150 6000 2150
+Connection ~ 6000 2050
+Wire Wire Line
+	2900 2200 2900 2900
+Wire Wire Line
+	2400 2750 3200 2750
+Wire Wire Line
+	2400 1650 2400 2750
+Connection ~ 2900 2750
+Wire Wire Line
+	2900 2900 6850 2900
+Connection ~ 4650 2650
+Wire Wire Line
+	5150 1450 6850 1450
+Wire Wire Line
+	6000 1450 6000 1550
+Wire Wire Line
+	6850 1450 6850 1950
+Connection ~ 6000 1450
+Wire Wire Line
+	6850 1950 7200 1950
+Wire Wire Line
+	7200 2150 6850 2150
+Connection ~ 6000 2150
+Wire Wire Line
+	6000 2900 6000 2600
+Connection ~ 4650 2900
+Wire Wire Line
+	6850 2150 6850 2900
+Connection ~ 6000 2900
+Wire Wire Line
+	4650 2250 4900 2250
+Wire Wire Line
+	4900 2250 4900 2350
+Wire Notes Line
+	7450 3100 2200 3100
+Wire Notes Line
+	2200 3100 2200 1200
+Wire Notes Line
+	2200 1200 7450 1200
+Wire Notes Line
+	7450 1200 7450 3100
+Wire Wire Line
+	2400 3650 3400 3650
+Wire Wire Line
+	3400 3650 3400 4050
+Connection ~ 3400 3750
+Connection ~ 3400 3850
+Wire Wire Line
+	3400 4650 3200 4650
+Wire Wire Line
+	3200 4650 3200 4750
+Wire Wire Line
+	2900 3750 2900 3650
+Connection ~ 2900 3650
+Wire Wire Line
+	2900 3950 2900 4200
+Wire Wire Line
+	2900 4200 3400 4200
+Wire Wire Line
+	2400 4950 3200 4950
+Wire Wire Line
+	2400 4950 2400 3850
+Wire Wire Line
+	2900 4400 2900 5100
+Connection ~ 2900 4950
+Wire Wire Line
+	2900 5100 6850 5100
+Wire Wire Line
+	4650 3650 4650 4150
+Connection ~ 4650 3750
+Connection ~ 4650 4050
+Connection ~ 4650 3850
+Connection ~ 4650 3950
+Wire Wire Line
+	4850 3650 4650 3650
+Wire Wire Line
+	4650 4550 4650 4850
+Connection ~ 4650 4650
+Connection ~ 4650 4750
+Wire Wire Line
+	5150 3650 6850 3650
+Wire Wire Line
+	5950 3650 5950 3750
+Wire Wire Line
+	5950 3750 6250 3750
+Wire Wire Line
+	6250 4050 6250 3950
+Wire Wire Line
+	4650 4250 6250 4250
+Connection ~ 5950 4250
+Connection ~ 4300 5100
+Wire Wire Line
+	5950 3950 5950 4600
+Wire Wire Line
+	5950 5100 5950 4800
+Wire Wire Line
+	4650 4350 5050 4350
+Wire Wire Line
+	5250 4350 5450 4350
+Wire Wire Line
+	5650 4350 5950 4350
+Connection ~ 5950 4350
+Wire Wire Line
+	4650 4450 4900 4450
+Wire Wire Line
+	4900 4450 4900 4550
+Connection ~ 5950 3650
+Wire Wire Line
+	6850 3650 6850 4150
+Wire Wire Line
+	6850 4150 7200 4150
+Wire Wire Line
+	7200 4350 6850 4350
+Wire Wire Line
+	6850 4350 6850 5100
+Connection ~ 5950 5100
+Wire Notes Line
+	2200 3400 2200 5300
+Wire Notes Line
+	2200 5300 7450 5300
+Wire Notes Line
+	7450 5300 7450 3400
+Wire Notes Line
+	7450 3400 2200 3400
+Text HLabel 6850 3750 0    60   Input ~ 0
+3V3OUT
+Text HLabel 6850 1500 0    60   Input ~ 0
+3V3OUT
+Text HLabel 2800 1450 1    60   Input ~ 0
+3V3IN
+Text HLabel 2800 3650 1    60   Input ~ 0
+3V3IN
+$EndSCHEMATC
