@@ -967,4 +967,5 @@ Wire Wire Line
 	8900 4400 9450 4400
 Text Notes 2300 300  0    60   ~ 0
 Might have to move current sensor to other side of mosfet
+Connection ~ 3800 2450
 $EndSCHEMATC
