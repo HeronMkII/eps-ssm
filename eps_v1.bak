@@ -243,5 +243,5 @@ Text HLabel 2350 7050 0    60   Input ~ 0
 Text HLabel 2350 7200 0    60   Input ~ 0
 -YI
 Text Notes 3450 3950 0    60   ~ 0
-Hi back
+Hello
 $EndSCHEMATC
