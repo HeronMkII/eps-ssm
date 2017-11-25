@@ -139,16 +139,114 @@ $EndComp
 $Comp
 L +PACK #PWR?
 U 1 1 59EA52CA
-P 7050 2550
-F 0 "#PWR?" H 7050 2400 50  0001 C CNN
-F 1 "+PACK" H 7050 2690 50  0000 C CNN
-F 2 "" H 7050 2550 50  0001 C CNN
-F 3 "" H 7050 2550 50  0001 C CNN
-	1    7050 2550
+P 7550 2550
+F 0 "#PWR?" H 7550 2400 50  0001 C CNN
+F 1 "+PACK" H 7550 2690 50  0000 C CNN
+F 2 "" H 7550 2550 50  0001 C CNN
+F 3 "" H 7550 2550 50  0001 C CNN
+	1    7550 2550
 	0    1    1    0   
 $EndComp
 Text Notes 3850 2450 0    60   ~ 0
 BATTERY AND PROTECTION CIRCUIT
+Text HLabel 7550 2550 1    60   Output ~ 0
++PACK
+Text Notes 5500 4150 0    60   ~ 0
+Protection for 2 and 4
+$Comp
+L INA214 U?
+U 1 1 5A10F7B5
+P 6950 1600
+F 0 "U?" H 6950 1300 60  0000 C CNN
+F 1 "INA214" H 6950 1900 60  0000 C CNN
+F 2 "" H 6950 1900 60  0001 C CNN
+F 3 "" H 6950 1900 60  0001 C CNN
+	1    6950 1600
+	0    1    1    0   
+$EndComp
+Text Label 5500 4300 0    60   ~ 0
+Original: Batteries 2 and 3 shorted to +PACK
+$Comp
+L R_Small R?
+U 1 1 5A112EB5
+P 6900 2550
+F 0 "R?" H 6930 2570 50  0000 L CNN
+F 1 "R_Small" H 6930 2510 50  0000 L CNN
+F 2 "" H 6900 2550 50  0001 C CNN
+F 3 "" H 6900 2550 50  0001 C CNN
+	1    6900 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 5A113C8A
+P 7100 1200
+F 0 "#PWR?" H 7100 1050 50  0001 C CNN
+F 1 "+3V3" H 7100 1340 50  0000 C CNN
+F 2 "" H 7100 1200 50  0001 C CNN
+F 3 "" H 7100 1200 50  0001 C CNN
+	1    7100 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A113CE6
+P 6800 1200
+F 0 "#PWR?" H 6800 950 50  0001 C CNN
+F 1 "GND" H 6800 1050 50  0000 C CNN
+F 2 "" H 6800 1200 50  0001 C CNN
+F 3 "" H 6800 1200 50  0001 C CNN
+	1    6800 1200
+	0    1    1    0   
+$EndComp
+Text HLabel 7100 2000 3    60   Input ~ 0
+IPACK
+Text Label 7300 1950 0    60   ~ 0
+Output to port expander
+$Comp
+L R_Small R?
+U 1 1 5A19EE91
+P 7350 2750
+F 0 "R?" H 7400 2800 50  0000 L CNN
+F 1 "R_Small" H 7380 2710 50  0000 L CNN
+F 2 "" H 7350 2750 50  0001 C CNN
+F 3 "" H 7350 2750 50  0001 C CNN
+	1    7350 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A19EED2
+P 7350 3050
+F 0 "R?" H 7400 3100 50  0000 L CNN
+F 1 "R_Small" H 7380 3010 50  0000 L CNN
+F 2 "" H 7350 3050 50  0001 C CNN
+F 3 "" H 7350 3050 50  0001 C CNN
+	1    7350 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5A19EF38
+P 7150 2900
+F 0 "C?" H 7160 2970 50  0000 L CNN
+F 1 "C_Small" H 7160 2820 50  0000 L CNN
+F 2 "" H 7150 2900 50  0001 C CNN
+F 3 "" H 7150 2900 50  0001 C CNN
+	1    7150 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A19EF85
+P 7050 3150
+F 0 "#PWR?" H 7050 2900 50  0001 C CNN
+F 1 "GND" H 7050 3000 50  0000 C CNN
+F 2 "" H 7050 3150 50  0001 C CNN
+F 3 "" H 7050 3150 50  0001 C CNN
+	1    7050 3150
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	3650 3900 5100 3900
 Connection ~ 4250 3900
@@ -201,75 +299,35 @@ Connection ~ 5900 3150
 Wire Wire Line
 	6100 2850 6100 3150
 Connection ~ 6100 3150
-Text HLabel 6550 2550 1    60   Input ~ 0
-+PACK
-Text Notes 5500 4150 0    60   ~ 0
-Protection for 2 and 4
-$Comp
-L INA214 U?
-U 1 1 5A10F7B5
-P 6950 1600
-F 0 "U?" H 6950 1300 60  0000 C CNN
-F 1 "INA214" H 6950 1900 60  0000 C CNN
-F 2 "" H 6950 1900 60  0001 C CNN
-F 3 "" H 6950 1900 60  0001 C CNN
-	1    6950 1600
-	0    1    1    0   
-$EndComp
-Text Label 5500 4300 0    60   ~ 0
-Original: Batteries 2 and 3 shorted to +PACK
 Wire Wire Line
 	6100 3350 6100 3450
 Connection ~ 6100 3350
-$Comp
-L R_Small R?
-U 1 1 5A112EB5
-P 6900 2550
-F 0 "R?" H 6930 2570 50  0000 L CNN
-F 1 "R_Small" H 6930 2510 50  0000 L CNN
-F 2 "" H 6900 2550 50  0001 C CNN
-F 3 "" H 6900 2550 50  0001 C CNN
-	1    6900 2550
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
-	7000 2550 7050 2550
+	7000 2550 7550 2550
 Wire Wire Line
 	6500 2550 6800 2550
 Wire Wire Line
 	6800 2550 6800 2000
 Wire Wire Line
 	6950 1200 7100 1200
-$Comp
-L +3V3 #PWR?
-U 1 1 5A113C8A
-P 7100 1200
-F 0 "#PWR?" H 7100 1050 50  0001 C CNN
-F 1 "+3V3" H 7100 1340 50  0000 C CNN
-F 2 "" H 7100 1200 50  0001 C CNN
-F 3 "" H 7100 1200 50  0001 C CNN
-	1    7100 1200
-	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 5A113CE6
-P 6800 1200
-F 0 "#PWR?" H 6800 950 50  0001 C CNN
-F 1 "GND" H 6800 1050 50  0000 C CNN
-F 2 "" H 6800 1200 50  0001 C CNN
-F 3 "" H 6800 1200 50  0001 C CNN
-	1    6800 1200
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	7000 2550 7000 2200
 Wire Wire Line
 	7000 2200 6950 2200
 Wire Wire Line
 	6950 2200 6950 2000
-Text HLabel 7100 2000 3    60   Input ~ 0
-IPACK
-Text Label 7300 1950 0    60   ~ 0
-Output to port expander
+Wire Wire Line
+	7350 2550 7350 2650
+Connection ~ 7350 2550
+Wire Wire Line
+	7350 2850 7350 2950
+Wire Wire Line
+	7250 2900 7600 2900
+Connection ~ 7350 2900
+Wire Wire Line
+	7050 2900 7050 3150
+Wire Wire Line
+	7050 3150 7350 3150
+Text HLabel 7600 2900 2    60   Output ~ 0
+VPack
 $EndSCHEMATC
