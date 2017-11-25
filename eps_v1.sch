@@ -165,12 +165,12 @@ F5 "-YVgs" I R 2350 7300 60
 F6 "+XI" O L 1550 7050 60 
 $EndSheet
 $Sheet
-S 7550 5200 500  300 
+S 7550 5050 500  300 
 U 59EA1B3E
 F0 "3V3" 60
 F1 "3V3.sch" 60
-F2 "3V3IN" I L 7550 5300 60 
-F3 "3V3OUT" O R 8050 5400 60 
+F2 "3V3IN" I L 7550 5150 60 
+F3 "3V3OUT" O R 8050 5250 60 
 $EndSheet
 $Sheet
 S 6250 5400 750  450 
@@ -201,14 +201,6 @@ F 3 "" H 5000 1300 50  0001 C CNN
 	1    5000 1300
 	1    0    0    -1  
 $EndComp
-$Sheet
-S 8850 5000 500  300 
-U 59E93050
-F0 "9V" 60
-F1 "9V.sch" 60
-F2 "9VIN" I L 8850 5100 60 
-F3 "9VOUT" O R 9350 5200 60 
-$EndSheet
 Wire Wire Line
 	4450 5750 4550 5750
 Wire Wire Line
@@ -245,4 +237,10 @@ Text HLabel 2350 7200 0    60   Input ~ 0
 -YI
 Text Notes 3450 3950 0    60   ~ 0
 Hello
+$Sheet
+S 9700 4700 750  700 
+U 5A1A5B75
+F0 "9V" 60
+F1 "9V.sch" 60
+$EndSheet
 $EndSCHEMATC
