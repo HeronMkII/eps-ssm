@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:eps_v1-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -48,7 +49,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L TPS61088 U?
+L TPS61088-RESCUE-eps_v1 U?
 U 1 1 59E9411F
 P 5150 4700
 F 0 "U?" H 4800 5300 60  0000 C CNN
