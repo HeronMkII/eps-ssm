@@ -141,7 +141,7 @@ Deployment switches\n
 Text Notes 4950 4650 0    60   ~ 0
 RBF pin
 Text Notes 13600 1450 0    60   ~ 0
-Need to add the uC circuit (ATMEGA32M1)\nAdd all current and voltage sensors\ndecide whether to add the gas gauge (y) and the charging module (n)\nduplicate 3V3 supply and add a 12V supply
+Need to add the uC circuit (ATMEGA32M1)\nAdd all current and voltage sensors\ndecide whether to add the gas gauge (y) and the charging module (n)\nduplicate 3V3 supply and add a 9V supply
 $Comp
 L ATMEGA32M1-AU U?
 U 1 1 59D409BA
@@ -243,6 +243,4 @@ Text HLabel 2350 7050 0    60   Input ~ 0
 +YI
 Text HLabel 2350 7200 0    60   Input ~ 0
 -YI
-Text Notes 3450 3950 0    60   ~ 0
-Hello
 $EndSCHEMATC

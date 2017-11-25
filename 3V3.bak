@@ -268,8 +268,8 @@ F 3 "" H 1900 2000 50  0001 C CNN
 	1    1900 2000
 	1    0    0    -1  
 $EndComp
-Text Notes 6300 3600 0    60   ~ 0
-3V3 SUPPLY
+Text Notes 6150 3600 0    60   ~ 0
+3V3 SUPPLY (1)
 Text HLabel 6350 2200 0    60   Output ~ 0
 3V3OUT1
 Text HLabel 2300 2000 1    60   Input ~ 0
@@ -643,10 +643,10 @@ F 3 "" H 1900 5150 50  0001 C CNN
 	1    1900 5150
 	1    0    0    -1  
 $EndComp
-Text Notes 6300 6750 0    60   ~ 0
-3V3 SUPPLY
+Text Notes 6150 6750 0    60   ~ 0
+3V3 SUPPLY (2)
 Text HLabel 6350 5350 0    60   Output ~ 0
-3V3OUT1
+3V3OUT2
 Text HLabel 2300 5150 1    60   Input ~ 0
 3V3IN
 $Comp
@@ -786,7 +786,7 @@ $EndComp
 Wire Wire Line
 	5500 4100 5650 4100
 Text HLabel 5650 4900 3    60   Output ~ 0
-3V3IOUT1
+3V3IOUT2
 $Comp
 L +3V3 #PWR?
 U 1 1 5A1A97C0
