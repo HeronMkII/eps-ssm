@@ -204,8 +204,8 @@ $EndComp
 $Sheet
 S 8850 5000 500  300 
 U 59E93050
-F0 "12V" 60
-F1 "12V.sch" 60
+F0 "9V" 60
+F1 "9V.sch" 60
 F2 "9VIN" I L 8850 5100 60 
 F3 "9VOUT" O R 9350 5200 60 
 $EndSheet
