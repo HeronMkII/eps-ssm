@@ -38,7 +38,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -141,7 +141,7 @@ Deployment switches\n
 Text Notes 4950 4650 0    60   ~ 0
 RBF pin
 Text Notes 13600 1450 0    60   ~ 0
-Need to add the uC circuit (ATMEGA32M1)\nAdd all current and voltage sensors\ndecide whether to add the gas gauge (y) and the charging module (n)\nduplicate 3V3 supply and add a 9V supply
+Need to add the uC circuit (ATMEGA32M1)\nAdd all current and voltage sensors\ndecide whether to add the gas gauge (y) and the charging module (n)\nduplicate 3V3 supply and add a 12V supply
 $Comp
 L ATMEGA32M1-AU U?
 U 1 1 59D409BA
@@ -235,15 +235,24 @@ Text HLabel 2350 7050 0    60   Input ~ 0
 +YI
 Text HLabel 2350 7200 0    60   Input ~ 0
 -YI
-<<<<<<< HEAD
-Text Notes 3450 3950 0    60   ~ 0
-Hello
 $Sheet
 S 9700 4700 750  700 
 U 5A1A5B75
 F0 "9V" 60
 F1 "9V.sch" 60
 $EndSheet
-=======
->>>>>>> origin/master
+$Sheet
+S 7850 3700 1000 1000
+U 5A22FABC
+F0 "SWITCH_3V3" 60
+F1 "SWITCH_3V3.sch" 60
+$EndSheet
+Text HLabel 7850 3950 2    60   Input ~ 0
+3V3OUT
+Text HLabel 8850 3950 0    60   Input ~ 0
+N_3V3
+Text HLabel 8850 4200 0    60   Input ~ 0
+E_3V3
+Text HLabel 7850 4200 2    60   Input ~ 0
+SWITCH
 $EndSCHEMATC
