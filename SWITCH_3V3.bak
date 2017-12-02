@@ -86,7 +86,7 @@ Connection ~ 5100 3100
 Wire Wire Line
 	5100 2900 5100 2400
 Text HLabel 5100 2400 0    60   Input ~ 0
-3V3_SWITCH
+SWITCH
 Wire Wire Line
 	5100 3000 6750 3000
 Text HLabel 6750 3000 2    60   Output ~ 0

@@ -57,7 +57,7 @@ F 1 "bq297xx" H 5600 2550 60  0000 C CNN
 F 2 "" H 5500 2450 60  0001 C CNN
 F 3 "" H 5500 2450 60  0001 C CNN
 	1    5650 2750
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_01X04_MALE J?
@@ -68,7 +68,7 @@ F 1 "BATTERY" H 6000 3350 50  0000 C CNN
 F 2 "" H 6000 4050 50  0001 C CNN
 F 3 "" H 6000 4050 50  0001 C CNN
 	1    6000 3750
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L BSC026NE2LS5 Q?
@@ -79,7 +79,7 @@ F 1 "BSC026NE2LS5" H 4450 3300 60  0000 C CNN
 F 2 "" H 4300 3550 60  0001 C CNN
 F 3 "" H 4300 3550 60  0001 C CNN
 	1    4300 3550
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L BSC026NE2LS5 Q?
@@ -90,7 +90,7 @@ F 1 "BSC026NE2LS5" H 5100 3300 60  0000 C CNN
 F 2 "" H 4950 3550 60  0001 C CNN
 F 3 "" H 4950 3550 60  0001 C CNN
 	1    4950 3550
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L R_Small R?
@@ -101,7 +101,7 @@ F 1 "2.2k" H 3680 3410 50  0000 L CNN
 F 2 "" H 3650 3450 50  0001 C CNN
 F 3 "" H 3650 3450 50  0001 C CNN
 	1    3650 3450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L R_Small R?
@@ -112,7 +112,7 @@ F 1 "330" H 6530 2610 50  0000 L CNN
 F 2 "" H 6500 2650 50  0001 C CNN
 F 3 "" H 6500 2650 50  0001 C CNN
 	1    6500 2650
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L C_Small C?
@@ -123,7 +123,7 @@ F 1 "0.1uF" H 6510 2870 50  0000 L CNN
 F 2 "" H 6500 2950 50  0001 C CNN
 F 3 "" H 6500 2950 50  0001 C CNN
 	1    6500 2950
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L -PACK #PWR?
@@ -134,7 +134,7 @@ F 1 "-PACK" H 4350 3290 50  0000 C CNN
 F 2 "" H 4350 3150 50  0001 C CNN
 F 3 "" H 4350 3150 50  0001 C CNN
 	1    4350 3150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L +PACK #PWR?
@@ -145,7 +145,7 @@ F 1 "+PACK" H 7050 2690 50  0000 C CNN
 F 2 "" H 7050 2550 50  0001 C CNN
 F 3 "" H 7050 2550 50  0001 C CNN
 	1    7050 2550
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Text Notes 3850 2450 0    60   ~ 0
 BATTERY AND PROTECTION CIRCUIT
@@ -214,7 +214,7 @@ F 1 "INA214" H 6950 1900 60  0000 C CNN
 F 2 "" H 6950 1900 60  0001 C CNN
 F 3 "" H 6950 1900 60  0001 C CNN
 	1    6950 1600
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Text Label 5500 4300 0    60   ~ 0
 Original: Batteries 2 and 3 shorted to +PACK
@@ -230,7 +230,7 @@ F 1 "R_Small" H 6930 2510 50  0000 L CNN
 F 2 "" H 6900 2550 50  0001 C CNN
 F 3 "" H 6900 2550 50  0001 C CNN
 	1    6900 2550
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	7000 2550 7050 2550
@@ -249,7 +249,7 @@ F 1 "+3V3" H 7100 1340 50  0000 C CNN
 F 2 "" H 7100 1200 50  0001 C CNN
 F 3 "" H 7100 1200 50  0001 C CNN
 	1    7100 1200
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR?
@@ -260,7 +260,7 @@ F 1 "GND" H 6800 1050 50  0000 C CNN
 F 2 "" H 6800 1200 50  0001 C CNN
 F 3 "" H 6800 1200 50  0001 C CNN
 	1    6800 1200
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	7000 2550 7000 2200

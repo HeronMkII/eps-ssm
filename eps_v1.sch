@@ -254,5 +254,5 @@ N_3V3
 Text HLabel 8850 4200 0    60   Input ~ 0
 E_3V3
 Text HLabel 7850 4200 2    60   Input ~ 0
-SWITCH
+3V3_SWITCH
 $EndSCHEMATC
