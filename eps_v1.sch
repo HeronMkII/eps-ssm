@@ -38,7 +38,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -249,10 +249,24 @@ F1 "SWITCH_3V3.sch" 60
 $EndSheet
 Text HLabel 7850 3950 2    60   Input ~ 0
 3V3OUT
-Text HLabel 8850 3950 0    60   Input ~ 0
+Text HLabel 8850 3950 0    60   Output ~ 0
 N_3V3
-Text HLabel 8850 4200 0    60   Input ~ 0
-E_3V3
 Text HLabel 7850 4200 2    60   Input ~ 0
 3V3_SWITCH
+$Sheet
+S 9500 2350 1150 1050
+U 5A234549
+F0 "SWITCH_9V" 60
+F1 "SWITCH_9V.sch" 60
+$EndSheet
+Text HLabel 9500 2550 2    60   Input ~ 0
+9VOUT
+Text HLabel 9500 2800 2    60   Input ~ 0
+9V_SWITCH
+Text HLabel 10650 2550 0    60   Output ~ 0
+N_9V
+Text HLabel 10650 2800 0    60   Output ~ 0
+E_9V
+Text HLabel 8850 4200 0    60   Output ~ 0
+E_3V3
 $EndSCHEMATC
