@@ -70,7 +70,7 @@ F 3 "" H 7300 2500 50  0001 C CNN
 	1    7300 2500
 	1    0    0    -1  
 $EndComp
-Text HLabel 7300 2500 2    60   Output ~ 0
+Text HLabel 7300 2500 0    60   Output ~ 0
 9VOUTA
 Text HLabel 2100 1900 0    60   Input ~ 0
 9VINA
@@ -252,7 +252,7 @@ Wire Wire Line
 Wire Wire Line
 	3000 2000 3000 2600
 Wire Wire Line
-	2100 3500 7300 3500
+	2100 3500 7950 3500
 Wire Wire Line
 	2400 2600 2400 1900
 Connection ~ 2400 1900
@@ -333,7 +333,7 @@ Connection ~ 5650 2600
 Wire Wire Line
 	6050 2550 6050 2500
 Wire Wire Line
-	5650 2500 7300 2500
+	5650 2500 7600 2500
 Wire Wire Line
 	6050 2750 6050 3150
 Wire Wire Line
@@ -396,8 +396,6 @@ F 3 "" H 7300 5200 50  0001 C CNN
 	1    7300 5200
 	1    0    0    -1  
 $EndComp
-Text HLabel 7300 5200 2    60   Output ~ 0
-9VOUTB
 Text HLabel 2100 4600 0    60   Input ~ 0
 9VINB
 $Comp
@@ -567,7 +565,7 @@ Wire Wire Line
 Wire Wire Line
 	3000 4700 3000 5300
 Wire Wire Line
-	2100 6200 7300 6200
+	2100 6200 7900 6200
 Wire Wire Line
 	2400 5300 2400 4600
 Connection ~ 2400 4600
@@ -643,7 +641,7 @@ Connection ~ 5650 5300
 Wire Wire Line
 	6050 5250 6050 5200
 Wire Wire Line
-	5650 5200 7300 5200
+	5650 5200 7550 5200
 Wire Wire Line
 	6050 5450 6050 5850
 Wire Wire Line
@@ -684,4 +682,110 @@ Connection ~ 6050 5200
 Wire Wire Line
 	7300 6200 7300 5800
 Connection ~ 6050 6200
+Text HLabel 7300 5200 0    60   Output ~ 0
+9VOUTB
+Wire Wire Line
+	7550 5200 7550 5300
+Connection ~ 7300 5200
+$Comp
+L R_Small R?
+U 1 1 5A277DE7
+P 7550 5400
+F 0 "R?" H 7580 5420 50  0000 L CNN
+F 1 "R_Small" H 7580 5360 50  0000 L CNN
+F 2 "" H 7550 5400 50  0001 C CNN
+F 3 "" H 7550 5400 50  0001 C CNN
+	1    7550 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A277E75
+P 7550 6000
+F 0 "R?" H 7580 6020 50  0000 L CNN
+F 1 "R_Small" H 7580 5960 50  0000 L CNN
+F 2 "" H 7550 6000 50  0001 C CNN
+F 3 "" H 7550 6000 50  0001 C CNN
+	1    7550 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5A277EF3
+P 7900 6000
+F 0 "C?" H 7910 6070 50  0000 L CNN
+F 1 "C_Small" H 7910 5920 50  0000 L CNN
+F 2 "" H 7900 6000 50  0001 C CNN
+F 3 "" H 7900 6000 50  0001 C CNN
+	1    7900 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 5500 7550 5900
+Wire Wire Line
+	7900 5700 7900 5900
+Wire Wire Line
+	7500 5700 7900 5700
+Connection ~ 7550 5700
+Wire Wire Line
+	7550 6200 7550 6100
+Connection ~ 7300 6200
+Text HLabel 7500 5700 3    60   Output ~ 0
+VOLT9VB
+Wire Wire Line
+	7900 6200 7900 6100
+Connection ~ 7550 6200
+Wire Wire Line
+	7600 2500 7600 2650
+Connection ~ 7300 2500
+$Comp
+L C_Small C?
+U 1 1 5A27979D
+P 7950 3300
+F 0 "C?" H 7960 3370 50  0000 L CNN
+F 1 "C_Small" H 7960 3220 50  0000 L CNN
+F 2 "" H 7950 3300 50  0001 C CNN
+F 3 "" H 7950 3300 50  0001 C CNN
+	1    7950 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A279826
+P 7600 2750
+F 0 "R?" H 7630 2770 50  0000 L CNN
+F 1 "R_Small" H 7630 2710 50  0000 L CNN
+F 2 "" H 7600 2750 50  0001 C CNN
+F 3 "" H 7600 2750 50  0001 C CNN
+	1    7600 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5A2798A7
+P 7600 3300
+F 0 "R?" H 7630 3320 50  0000 L CNN
+F 1 "R_Small" H 7630 3260 50  0000 L CNN
+F 2 "" H 7600 3300 50  0001 C CNN
+F 3 "" H 7600 3300 50  0001 C CNN
+	1    7600 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 2850 7600 3200
+Wire Wire Line
+	7550 3000 7950 3000
+Wire Wire Line
+	7950 3000 7950 3200
+Connection ~ 7600 3000
+Wire Wire Line
+	7600 3500 7600 3400
+Connection ~ 7300 3500
+Wire Wire Line
+	7950 3500 7950 3400
+Connection ~ 7600 3500
+Text HLabel 7550 3000 3    60   Output ~ 0
+VOLT9VA
+Text Notes 2050 6650 0    60   ~ 0
+Naming convention needs fixing?
 $EndSCHEMATC

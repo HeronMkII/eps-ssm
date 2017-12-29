@@ -268,7 +268,7 @@ Wire Wire Line
 	7000 2200 6950 2200
 Wire Wire Line
 	6950 2200 6950 2000
-Text HLabel 7100 2000 3    60   Input ~ 0
+Text HLabel 7100 2000 3    60   Output ~ 0
 IPACK
 Text Label 7300 1950 0    60   ~ 0
 Output to port expander
