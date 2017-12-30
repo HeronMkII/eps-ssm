@@ -169,15 +169,15 @@ S 7550 5050 500  300
 U 59EA1B3E
 F0 "3V3" 60
 F1 "3V3.sch" 60
-F2 "3V3IN" I L 7550 5150 60 
-F3 "3V3OUT" O R 8050 5250 60 
+F2 "3V3IN" I L 7550 5100 60 
+F3 "3V3OUT1" O R 8050 5200 60 
 $EndSheet
 $Sheet
 S 6250 5400 750  450 
 U 59EA5153
 F0 "BATT" 60
 F1 "BATT.sch" 60
-F2 "+PACK" I R 7000 5650 60 
+F2 "+PACK" I L 6250 5500 60 
 $EndSheet
 $Comp
 L GND #PWR?
@@ -273,4 +273,20 @@ Text Notes 9700 4550 0    60   ~ 0
 Add ins/outs
 Text Notes 7550 5600 0    60   ~ 0
 Add ins/outs
+Text HLabel 9700 4850 2    60   Input ~ 0
+9VINA
+Text HLabel 9700 5100 2    60   Input ~ 0
+9VINB
+Text HLabel 10450 4850 0    60   Output ~ 0
+9VOUTA
+Text HLabel 10450 4950 0    60   Output ~ 0
+VOLT9VA
+Text HLabel 10450 5100 0    60   Output ~ 0
+9VOUTB
+Text HLabel 10450 5200 0    60   Output ~ 0
+VOLT9VB
+Text HLabel 8050 5300 0    60   Output ~ 0
+3V3OUT2
+Text HLabel 7000 5600 0    60   Output ~ 0
+IPACK
 $EndSCHEMATC

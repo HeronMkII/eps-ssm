@@ -289,4 +289,6 @@ Text HLabel 8050 5300 0    60   Output ~ 0
 3V3OUT2
 Text HLabel 7000 5600 0    60   Output ~ 0
 IPACK
+Text HLabel 6250 5750 2    60   Output ~ 0
+-PACK
 $EndSCHEMATC
