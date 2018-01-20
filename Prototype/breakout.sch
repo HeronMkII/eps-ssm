@@ -168,4 +168,6 @@ Wire Wire Line
 	2700 3900 2400 3900
 Wire Wire Line
 	1700 4100 1900 4100
+Text Notes 1700 4800 0    60   ~ 0
+hello
 $EndSCHEMATC
