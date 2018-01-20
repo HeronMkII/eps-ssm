@@ -1,0 +1,171 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:tps61088
+LIBS:ina214
+LIBS:eps_v1-cache
+LIBS:breakout-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L INA214 U1
+U 1 1 5A629C77
+P 7200 3350
+F 0 "U1" H 7200 3050 60  0000 C CNN
+F 1 "INA214" H 7200 3650 60  0000 C CNN
+F 2 "kicad-libraries:SC70-6" H 7200 3650 60  0001 C CNN
+F 3 "" H 7200 3650 60  0001 C CNN
+	1    7200 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L SM74611 D2
+U 1 1 5A629DEF
+P 3950 2500
+F 0 "D2" H 4050 2600 60  0000 C CNN
+F 1 "SM74611" H 4000 2350 60  0000 C CNN
+F 2 "Diodes_SMD:DD-PAK_TO263_SingleDiode" V 3950 2500 60  0001 C CNN
+F 3 "" V 3950 2500 60  0001 C CNN
+	1    3950 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L TPS61088 U4
+U 1 1 5A629F1B
+P 5500 2800
+F 0 "U4" H 5500 3550 60  0000 C CNN
+F 1 "TPS61088" H 5500 2050 60  0000 C CNN
+F 2 "Housings_DFN_QFN:Texas_VQFN-RGR-20" H 5500 2500 60  0001 C CNN
+F 3 "" H 5500 2500 60  0001 C CNN
+	1    5500 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L BSC026NE2LS5 Q1
+U 1 1 5A629F5C
+P 2200 2350
+F 0 "Q1" H 2050 2600 60  0000 C CNN
+F 1 "BSC026NE2LS5" H 2350 2100 60  0000 C CNN
+F 2 "Housings_SON:VSONP-8-1EP_5x6_Pitch1.27mm" H 2200 2350 60  0001 C CNN
+F 3 "" H 2200 2350 60  0001 C CNN
+	1    2200 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L bq297xx U2
+U 1 1 5A629FB6
+P 2150 3300
+F 0 "U2" H 1950 3500 60  0000 C CNN
+F 1 "bq297xx" H 2100 3100 60  0000 C CNN
+F 2 "Housings_SON:WSON6_1.5x1.5mm_Pitch0.5mm" H 2000 3000 60  0001 C CNN
+F 3 "" H 2000 3000 60  0001 C CNN
+	1    2150 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM21215 U3
+U 1 1 5A62A020
+P 3650 4500
+F 0 "U3" H 3250 5150 60  0000 C CNN
+F 1 "LM21215" H 3400 3750 60  0000 C CNN
+F 2 "SMD_Packages:SSOP-20" H 4000 4950 60  0001 C CNN
+F 3 "" H 4000 4950 60  0001 C CNN
+	1    3650 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L ADA4891-4 U5
+U 1 1 5A62A087
+P 5750 4600
+F 0 "U5" H 5550 5000 60  0000 C CNN
+F 1 "ADA4891-4" H 5750 4200 60  0000 C CNN
+F 2 "SMD_Packages:SSOP-14" H 5950 4550 60  0001 C CNN
+F 3 "" H 5950 4550 60  0001 C CNN
+	1    5750 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_02x03_Counter_Clockwise J2
+U 1 1 5A638C97
+P 2100 4000
+F 0 "J2" H 2150 4200 50  0000 C CNN
+F 1 "Conn_02x03_Counter_Clockwise" H 2150 3800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 2100 4000 50  0001 C CNN
+F 3 "" H 2100 4000 50  0001 C CNN
+	1    2100 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 3200 1150 3200
+Wire Wire Line
+	1150 3200 1150 3900
+Wire Wire Line
+	1150 3900 1900 3900
+Wire Wire Line
+	1700 3300 1350 3300
+Wire Wire Line
+	1350 3300 1350 3950
+Wire Wire Line
+	1350 3950 1900 3950
+Wire Wire Line
+	1900 3950 1900 4000
+Wire Wire Line
+	1700 3400 1700 4100
+Wire Wire Line
+	2600 3400 2600 4100
+Wire Wire Line
+	2600 4100 2400 4100
+Wire Wire Line
+	2600 3300 2800 3300
+Wire Wire Line
+	2800 3300 2800 4000
+Wire Wire Line
+	2800 4000 2400 4000
+Wire Wire Line
+	2600 3200 2700 3200
+Wire Wire Line
+	2700 3200 2700 3900
+Wire Wire Line
+	2700 3900 2400 3900
+Wire Wire Line
+	1700 4100 1900 4100
+$EndSCHEMATC

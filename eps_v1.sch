@@ -269,10 +269,6 @@ Text HLabel 10650 2800 0    60   Output ~ 0
 E_9V
 Text HLabel 8850 4200 0    60   Output ~ 0
 E_3V3
-Text Notes 9700 4550 0    60   ~ 0
-Add ins/outs
-Text Notes 7550 5600 0    60   ~ 0
-Add ins/outs
 Text HLabel 9700 4850 2    60   Input ~ 0
 9VINA
 Text HLabel 9700 5100 2    60   Input ~ 0
