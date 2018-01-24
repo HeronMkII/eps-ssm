@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/mitchell/Documents/Git/eps-ssm/Prototype/breakout.sch)
-    (date "Sunday, January 21, 2018 'pmt' 10:30:54 pm")
+    (date "Tuesday, January 23, 2018 'pmt' 08:30:10 pm")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -29,7 +29,7 @@
       (tstamp 5A629DEF))
     (comp (ref U4)
       (value TPS61088)
-      (footprint Housings_DFN_QFN:Texas_VQFN-RGR-20)
+      (footprint w_smd_qfn:pvqfn-n20)
       (libsource (lib tps61088) (part TPS61088))
       (sheetpath (names /) (tstamps /))
       (tstamp 5A629F1B))
@@ -203,7 +203,7 @@
       (tstamp 5A65785E))
     (comp (ref U8)
       (value TPS61088)
-      (footprint Housings_DFN_QFN:Texas_VQFN-RGR-20)
+      (footprint w_smd_qfn:pvqfn-n20)
       (libsource (lib tps61088) (part TPS61088))
       (sheetpath (names /) (tstamps /))
       (tstamp 5A6589F0))
@@ -465,10 +465,10 @@
   (libraries
     (library (logical conn)
       (uri "/Library/Application Support/kicad/library/conn.lib"))
-    (library (logical eps_v1-cache)
-      (uri /Users/mitchell/Documents/Git/eps-ssm/Prototype/eps_v1-cache.lib))
     (library (logical tps61088)
       (uri /Users/mitchell/Documents/Git/eps-ssm/Prototype/tps61088.lib))
+    (library (logical eps_v1-cache)
+      (uri /Users/mitchell/Documents/Git/eps-ssm/Prototype/eps_v1-cache.lib))
     (library (logical ina214)
       (uri /Users/mitchell/Documents/Git/eps-ssm/Prototype/ina214.lib)))
   (nets
