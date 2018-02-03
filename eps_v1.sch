@@ -33,6 +33,7 @@ LIBS:power_management
 LIBS:general_ssm
 LIBS:ina214
 LIBS:tps61088
+LIBS:cdh_lib
 LIBS:eps_v1-cache
 EELAYER 25 0
 EELAYER END
@@ -49,10 +50,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L switch S?
+L switch S1
 U 1 1 5998D4E2
 P 4700 4950
-F 0 "S?" H 4700 5100 60  0000 C CNN
+F 0 "S1" H 4700 5100 60  0000 C CNN
 F 1 "switch" H 4700 4900 60  0001 C CNN
 F 2 "" H 4700 4950 60  0001 C CNN
 F 3 "" H 4700 4950 60  0001 C CNN
@@ -71,10 +72,10 @@ F 3 "" H 4850 4950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L switch S?
+L switch S2
 U 1 1 59990767
 P 4700 5400
-F 0 "S?" H 4700 5550 60  0000 C CNN
+F 0 "S2" H 4700 5550 60  0000 C CNN
 F 1 "switch" H 4700 5350 60  0001 C CNN
 F 2 "" H 4700 5400 60  0001 C CNN
 F 3 "" H 4700 5400 60  0001 C CNN
@@ -82,10 +83,10 @@ F 3 "" H 4700 5400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switch S?
+L switch S3
 U 1 1 59990813
 P 4700 5750
-F 0 "S?" H 4700 5900 60  0000 C CNN
+F 0 "S3" H 4700 5900 60  0000 C CNN
 F 1 "switch" H 4700 5700 60  0001 C CNN
 F 2 "" H 4700 5750 60  0001 C CNN
 F 3 "" H 4700 5750 60  0001 C CNN
@@ -115,10 +116,10 @@ F 3 "" H 4850 5750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L switch S?
+L switch S4
 U 1 1 59990A70
 P 4750 4650
-F 0 "S?" H 4750 4800 60  0000 C CNN
+F 0 "S4" H 4750 4800 60  0000 C CNN
 F 1 "switch" H 4750 4600 60  0001 C CNN
 F 2 "" H 4750 4650 60  0001 C CNN
 F 3 "" H 4750 4650 60  0001 C CNN
@@ -225,7 +226,7 @@ Text HLabel 2350 7050 0    60   Input ~ 0
 Text HLabel 2350 7200 0    60   Input ~ 0
 -YI
 $Sheet
-S 9700 4700 750  700 
+S 3550 6550 750  700 
 U 5A1A5B75
 F0 "9V" 60
 F1 "9V.sch" 60
@@ -243,32 +244,32 @@ N_3V3
 Text HLabel 8400 5600 2    60   Input ~ 0
 3V3_SWITCH
 $Sheet
-S 9500 2350 1150 1050
+S 4800 6550 1150 1050
 U 5A234549
 F0 "SWITCH_9V" 60
 F1 "SWITCH_9V.sch" 60
 $EndSheet
-Text HLabel 9500 2550 2    60   Input ~ 0
+Text HLabel 4800 6750 2    60   Input ~ 0
 9VOUT
-Text HLabel 9500 2800 2    60   Input ~ 0
+Text HLabel 4800 7000 2    60   Input ~ 0
 9V_SWITCH
-Text HLabel 10650 2550 0    60   Output ~ 0
+Text HLabel 5950 6750 0    60   Output ~ 0
 N_9V
-Text HLabel 10650 2800 0    60   Output ~ 0
+Text HLabel 5950 7000 0    60   Output ~ 0
 E_9V
 Text HLabel 9400 5600 0    60   Output ~ 0
 E_3V3
-Text HLabel 9700 4850 2    60   Input ~ 0
+Text HLabel 3550 6700 2    60   Input ~ 0
 9VINA
-Text HLabel 9700 5100 2    60   Input ~ 0
+Text HLabel 3550 6950 2    60   Input ~ 0
 9VINB
-Text HLabel 10450 4850 0    60   Output ~ 0
+Text HLabel 4300 6700 0    60   Output ~ 0
 9VOUTA
-Text HLabel 10450 4950 0    60   Output ~ 0
+Text HLabel 4300 6800 0    60   Output ~ 0
 VOLT9VA
-Text HLabel 10450 5100 0    60   Output ~ 0
+Text HLabel 4300 6950 0    60   Output ~ 0
 9VOUTB
-Text HLabel 10450 5200 0    60   Output ~ 0
+Text HLabel 4300 7050 0    60   Output ~ 0
 VOLT9VB
 Text HLabel 8050 5300 0    60   Output ~ 0
 3V3OUT2
@@ -282,12 +283,12 @@ Wire Wire Line
 	4750 1300 4750 1200
 Connection ~ 4750 1300
 $Comp
-L C C?
+L C C2
 U 1 1 5A75F62F
 P 4750 1050
-F 0 "C?" H 4775 1150 50  0000 L CNN
+F 0 "C2" H 4775 1150 50  0000 L CNN
 F 1 "0.1µF" H 4775 950 50  0000 L CNN
-F 2 "" H 4788 900 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4788 900 50  0001 C CNN
 F 3 "" H 4750 1050 50  0001 C CNN
 	1    4750 1050
 	1    0    0    -1  
@@ -320,12 +321,12 @@ Wire Wire Line
 	3900 1600 3900 1500
 Connection ~ 3900 1600
 $Comp
-L C C?
+L C C1
 U 1 1 5A75F878
 P 3900 1350
-F 0 "C?" H 3925 1450 50  0000 L CNN
+F 0 "C1" H 3925 1450 50  0000 L CNN
 F 1 "0.1µF" H 3925 1250 50  0000 L CNN
-F 2 "" H 3938 1200 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3938 1200 50  0001 C CNN
 F 3 "" H 3900 1350 50  0001 C CNN
 	1    3900 1350
 	1    0    0    -1  
@@ -358,12 +359,12 @@ Wire Wire Line
 	4750 2000 4750 2100
 Connection ~ 4750 2000
 $Comp
-L C C?
+L C C3
 U 1 1 5A75F9D3
 P 4750 2250
-F 0 "C?" H 4775 2350 50  0000 L CNN
+F 0 "C3" H 4775 2350 50  0000 L CNN
 F 1 "0.1µF" H 4775 2150 50  0000 L CNN
-F 2 "" H 4788 2100 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4788 2100 50  0001 C CNN
 F 3 "" H 4750 2250 50  0001 C CNN
 	1    4750 2250
 	-1   0    0    1   
@@ -380,12 +381,12 @@ F 3 "" H 4750 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Crystal_GND24 Y?
+L Crystal_GND24 Y1
 U 1 1 5A760437
 P 7850 4150
-F 0 "Y?" H 7975 4350 50  0000 L CNN
+F 0 "Y1" H 7975 4350 50  0000 L CNN
 F 1 "8MHz" H 7975 4275 50  0000 L CNN
-F 2 "" H 7850 4150 50  0001 C CNN
+F 2 "Housings_SOIC:SO-20_12.8x7.5mm_Pitch1.27mm" H 7850 4150 50  0001 C CNN
 F 3 "" H 7850 4150 50  0001 C CNN
 	1    7850 4150
 	0    1    1    0   
@@ -425,24 +426,24 @@ Wire Wire Line
 Wire Wire Line
 	7400 4200 7200 4200
 $Comp
-L C C?
+L C C4
 U 1 1 5A760A5E
 P 8550 4000
-F 0 "C?" H 8575 4100 50  0000 L CNN
+F 0 "C4" H 8575 4100 50  0000 L CNN
 F 1 "22pF" H 8575 3900 50  0000 L CNN
-F 2 "" H 8588 3850 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8588 3850 50  0001 C CNN
 F 3 "" H 8550 4000 50  0001 C CNN
 	1    8550 4000
 	0    1    1    0   
 $EndComp
 Connection ~ 7850 4000
 $Comp
-L C C?
+L C C5
 U 1 1 5A760D00
 P 8550 4300
-F 0 "C?" H 8575 4400 50  0000 L CNN
+F 0 "C5" H 8575 4400 50  0000 L CNN
 F 1 "22pF" H 8575 4200 50  0000 L CNN
-F 2 "" H 8588 4150 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8588 4150 50  0001 C CNN
 F 3 "" H 8550 4300 50  0001 C CNN
 	1    8550 4300
 	0    1    1    0   
@@ -471,14 +472,47 @@ F 3 "" H 8700 4300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ATMEGA32M1-MU U?
+L ATMEGA32M1-MU U1
 U 1 1 5A761CDE
 P 6100 3000
-F 0 "U?" H 5150 4830 50  0000 L BNN
+F 0 "U1" H 5150 4830 50  0000 L BNN
 F 1 "ATMEGA32M1-MU" H 6600 1600 50  0000 L BNN
 F 2 "QFN32" H 6100 3000 50  0001 C CIN
 F 3 "" H 6100 3000 50  0001 C CNN
 	1    6100 3000
+	1    0    0    -1  
+$EndComp
+Text Notes 1750 3300 0    60   ~ 0
+SN65HVD230\nSST25VF016B\n\nRESET BUTTON SW_RST\n\nH_EPS (2x5 ODD_EVEN)
+Wire Wire Line
+	8050 5300 8200 5300
+Wire Wire Line
+	8200 5200 8200 5350
+Wire Wire Line
+	8200 5350 8400 5350
+Wire Wire Line
+	8050 5200 8200 5200
+Connection ~ 8200 5300
+Wire Wire Line
+	4300 6700 4550 6700
+Wire Wire Line
+	4550 6700 4550 6950
+Wire Wire Line
+	4550 6750 4800 6750
+Wire Wire Line
+	4550 6950 4300 6950
+Connection ~ 4550 6750
+Text Notes 4250 6350 0    60   ~ 0
+ACTUALLY 5V
+$Comp
+L SN65HVD230 U?
+U 1 1 5A764293
+P 2600 4700
+F 0 "U?" H 2500 5100 50  0000 R CNN
+F 1 "SN65HVD230" H 2500 5000 50  0000 R CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 2600 4200 50  0001 C CNN
+F 3 "" H 2500 5100 50  0001 C CNN
+	1    2600 4700
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

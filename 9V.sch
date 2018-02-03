@@ -33,6 +33,7 @@ LIBS:power_management
 LIBS:general_ssm
 LIBS:ina214
 LIBS:tps61088
+LIBS:cdh_lib
 LIBS:eps_v1-cache
 EELAYER 25 0
 EELAYER END

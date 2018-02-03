@@ -1,4 +1,4 @@
-update=Saturday, November 18, 2017 'PMt' 04:08:49 PM
+update=Saturday, February 03, 2018 'pmt' 03:12:13 pm
 version=1
 last_client=kicad
 [pcbnew]
@@ -63,3 +63,4 @@ LibName31=power_management
 LibName32=general_ssm
 LibName33=ina214
 LibName34=tps61088
+LibName35=cdh_lib
