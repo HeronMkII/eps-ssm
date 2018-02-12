@@ -1,4 +1,4 @@
-update=Saturday, February 03, 2018 'pmt' 03:12:13 pm
+update=Saturday, February 10, 2018 'pmt' 01:45:30 pm
 version=1
 last_client=kicad
 [pcbnew]
@@ -64,3 +64,5 @@ LibName32=general_ssm
 LibName33=ina214
 LibName34=tps61088
 LibName35=cdh_lib
+LibName36=ads7952
+LibName37=tps630250
