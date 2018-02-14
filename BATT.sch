@@ -178,8 +178,6 @@ Wire Wire Line
 Wire Wire Line
 	6950 1200 7100 1200
 Wire Wire Line
-	6800 2000 6800 3650
-Wire Wire Line
 	6500 2550 6800 2550
 Wire Wire Line
 	7000 2550 7300 2550
@@ -237,8 +235,6 @@ Connection ~ 6900 3650
 Connection ~ 6800 3650
 Connection ~ 6900 4150
 Connection ~ 6800 4150
-Wire Wire Line
-	5750 4350 7100 4350
 Connection ~ 6900 4350
 Connection ~ 6800 4350
 $Comp
@@ -350,7 +346,7 @@ F 3 "" H 6900 4550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6800 3650 7100 3650
+	6500 3650 7100 3650
 Wire Wire Line
 	6800 4150 7100 4150
 Wire Wire Line
@@ -361,4 +357,62 @@ Wire Wire Line
 	7100 4850 6800 4850
 Connection ~ 6900 4850
 Connection ~ 6800 4850
+$Comp
+L Conn_01x02 S3
+U 1 1 5A84F4B4
+P 6100 4550
+F 0 "S3" H 6100 4650 50  0000 C CNN
+F 1 "DEP. SWITCH" H 6100 4350 50  0000 C CNN
+F 2 "Connectors_Hirose:Hirose_DF13-02P-1.25DS_02x1.25mm_Angled" H 6100 4550 50  0001 C CNN
+F 3 "" H 6100 4550 50  0001 C CNN
+	1    6100 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_01x02 S4
+U 1 1 5A84F546
+P 6500 4550
+F 0 "S4" H 6500 4650 50  0000 C CNN
+F 1 "RBL PIN" H 6500 4350 50  0000 C CNN
+F 2 "Connectors_Hirose:Hirose_DF13-02P-1.25DS_02x1.25mm_Angled" H 6500 4550 50  0001 C CNN
+F 3 "" H 6500 4550 50  0001 C CNN
+	1    6500 4550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6500 4350 7100 4350
+Wire Wire Line
+	6400 4350 6100 4350
+Wire Wire Line
+	5750 4350 6000 4350
+$Comp
+L Conn_01x02 S1
+U 1 1 5A84FC22
+P 6100 3850
+F 0 "S1" H 6100 3950 50  0000 C CNN
+F 1 "DEP. SWITCH" H 6100 3650 50  0000 C CNN
+F 2 "Connectors_Hirose:Hirose_DF13-02P-1.25DS_02x1.25mm_Angled" H 6100 3850 50  0001 C CNN
+F 3 "" H 6100 3850 50  0001 C CNN
+	1    6100 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_01x02 S2
+U 1 1 5A84FC29
+P 6500 3850
+F 0 "S2" H 6500 3950 50  0000 C CNN
+F 1 "DEP. SWITCH" H 6500 3650 50  0000 C CNN
+F 2 "Connectors_Hirose:Hirose_DF13-02P-1.25DS_02x1.25mm_Angled" H 6500 3850 50  0001 C CNN
+F 3 "" H 6500 3850 50  0001 C CNN
+	1    6500 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6800 2000 6800 3550
+Wire Wire Line
+	6400 3650 6100 3650
+Wire Wire Line
+	6000 3650 6000 3550
+Wire Wire Line
+	6000 3550 6800 3550
 $EndSCHEMATC
