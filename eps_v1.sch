@@ -1258,4 +1258,6 @@ F 3 "" H 4500 5300 50  0001 C CNN
 	1    4500 5300
 	0    -1   -1   0   
 $EndComp
+Text Label 7900 3700 2    60   ~ 0
+EPS_RST
 $EndSCHEMATC

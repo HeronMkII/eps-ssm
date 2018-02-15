@@ -329,7 +329,7 @@ U 1 1 5A829982
 P 6900 3850
 F 0 "J5" H 6950 3950 50  0000 C CNN
 F 1 "+BATT" H 6950 3650 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 6900 3850 50  0001 C CNN
+F 2 "Connectors_Hirose:Hirose_DF13-04P-1.25DS_04x1.25mm_Angled" H 6900 3850 50  0001 C CNN
 F 3 "" H 6900 3850 50  0001 C CNN
 	1    6900 3850
 	0    1    1    0   
@@ -340,7 +340,7 @@ U 1 1 5A8299C4
 P 6900 4550
 F 0 "J6" H 6950 4650 50  0000 C CNN
 F 1 "-BATT" H 6950 4350 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 6900 4550 50  0001 C CNN
+F 2 "Connectors_Hirose:Hirose_DF13-04P-1.25DS_04x1.25mm_Angled" H 6900 4550 50  0001 C CNN
 F 3 "" H 6900 4550 50  0001 C CNN
 	1    6900 4550
 	0    1    1    0   
