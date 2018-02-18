@@ -1,7 +1,12 @@
 M48
 <<<<<<< HEAD
+<<<<<<< HEAD
 ;DRILL file {KiCad 4.0.7} date Sunday, February 18, 2018 'PMt' 02:42:37 PM
 ;FORMAT={-:-/ absolute / inch / decimal}
+=======
+;DRILL file {KiCad 4.0.7} date 02/17/18 23:48:55
+;FORMAT={2:4/ absolute / inch / suppress leading zeros}
+>>>>>>> origin/master
 =======
 ;DRILL file {KiCad 4.0.7} date 02/17/18 23:48:55
 ;FORMAT={2:4/ absolute / inch / suppress leading zeros}
@@ -17,6 +22,7 @@ G90
 G05
 M72
 T1
+<<<<<<< HEAD
 <<<<<<< HEAD
 X3.987Y-3.9685
 X3.987Y-4.0685
@@ -231,6 +237,8 @@ X7.587Y-4.0185
 X7.5996Y-4.3626
 X7.6677Y-3.8559
 =======
+=======
+>>>>>>> origin/master
 X39870Y-39685
 X39870Y-40685
 X39870Y-41685
@@ -440,6 +448,9 @@ X74870Y-43185
 X74870Y-44185
 X75870Y-40185
 X76677Y-38559
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 T2
 X41870Y-26035
