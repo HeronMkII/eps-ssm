@@ -211,6 +211,314 @@ F 3 "" H 6700 2100 50  0001 C CNN
 	1    6700 2100
 	-1   0    0    -1  
 $EndComp
+$Comp
+L Conn_01x03_Male J5
+U 1 1 5A652F7D
+P 1950 2000
+F 0 "J5" H 1950 2200 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 1950 1800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 1950 2000 50  0001 C CNN
+F 3 "" H 1950 2000 50  0001 C CNN
+	1    1950 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x03_Male J2
+U 1 1 5A653764
+P 1850 2850
+F 0 "J2" H 1850 3050 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 1850 2650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 1850 2850 50  0001 C CNN
+F 3 "" H 1850 2850 50  0001 C CNN
+	1    1850 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x03_Male J11
+U 1 1 5A6537DA
+P 3150 2850
+F 0 "J11" H 3150 3050 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 3150 2650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 3150 2850 50  0001 C CNN
+F 3 "" H 3150 2850 50  0001 C CNN
+	1    3150 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x02_Male J12
+U 1 1 5A653C0B
+P 1700 5150
+F 0 "J12" H 1700 5250 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 1700 4950 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 1700 5150 50  0001 C CNN
+F 3 "" H 1700 5150 50  0001 C CNN
+	1    1700 5150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Conn_01x02_Male J13
+U 1 1 5A654934
+P 2450 5150
+F 0 "J13" H 2450 5250 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 2450 4950 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 2450 5150 50  0001 C CNN
+F 3 "" H 2450 5150 50  0001 C CNN
+	1    2450 5150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Conn_01x02_Male J14
+U 1 1 5A6549DB
+P 3150 5150
+F 0 "J14" H 3150 5250 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 3150 4950 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 3150 5150 50  0001 C CNN
+F 3 "" H 3150 5150 50  0001 C CNN
+	1    3150 5150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SM74611 D1
+U 1 1 5A654F6F
+P 2500 4600
+F 0 "D1" H 2600 4700 60  0000 C CNN
+F 1 "SM74611" H 2550 4450 60  0000 C CNN
+F 2 "Diodes_SMD:DD-PAK_TO263_SingleDiode" V 2500 4600 60  0001 C CNN
+F 3 "" V 2500 4600 60  0001 C CNN
+	1    2500 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SM74611 D3
+U 1 1 5A654FF1
+P 3200 4600
+F 0 "D3" H 3300 4700 60  0000 C CNN
+F 1 "SM74611" H 3250 4450 60  0000 C CNN
+F 2 "Diodes_SMD:DD-PAK_TO263_SingleDiode" V 3200 4600 60  0001 C CNN
+F 3 "" V 3200 4600 60  0001 C CNN
+	1    3200 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L BSC026NE2LS5 Q2
+U 1 1 5A65535B
+P 2550 1300
+F 0 "Q2" H 2400 1550 60  0000 C CNN
+F 1 "BSC026NE2LS5" H 2700 1050 60  0000 C CNN
+F 2 "Housings_SON:VSONP-8-1EP_5x6_Pitch1.27mm" H 2550 1300 60  0001 C CNN
+F 3 "" H 2550 1300 60  0001 C CNN
+	1    2550 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x03_Male J15
+U 1 1 5A655477
+P 1950 1250
+F 0 "J15" H 1950 1450 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 1950 1050 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 1950 1250 50  0001 C CNN
+F 3 "" H 1950 1250 50  0001 C CNN
+	1    1950 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L INA214 U6
+U 1 1 5A655CCC
+P 9700 5950
+F 0 "U6" H 9700 5650 60  0000 C CNN
+F 1 "INA214" H 9700 6250 60  0000 C CNN
+F 2 "kicad-libraries:SC70-6" H 9700 6250 60  0001 C CNN
+F 3 "" H 9700 6250 60  0001 C CNN
+	1    9700 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x03_Male J16
+U 1 1 5A655D54
+P 8950 5950
+F 0 "J16" H 8950 6150 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 8950 5750 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 8950 5950 50  0001 C CNN
+F 3 "" H 8950 5950 50  0001 C CNN
+	1    8950 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x03_Male J17
+U 1 1 5A655DF5
+P 10450 5950
+F 0 "J17" H 10450 6150 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 10450 5750 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 10450 5950 50  0001 C CNN
+F 3 "" H 10450 5950 50  0001 C CNN
+	1    10450 5950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ADA4891-4 U7
+U 1 1 5A65736D
+P 6400 5450
+F 0 "U7" H 6200 5850 60  0000 C CNN
+F 1 "ADA4891-4" H 6400 5050 60  0000 C CNN
+F 2 "SMD_Packages:SSOP-14" H 6600 5400 60  0001 C CNN
+F 3 "" H 6600 5400 60  0001 C CNN
+	1    6400 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x07_Male J18
+U 1 1 5A65740A
+P 5700 5450
+F 0 "J18" H 5700 5850 50  0000 C CNN
+F 1 "Conn_01x07_Male" H 5700 5050 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm" H 5700 5450 50  0001 C CNN
+F 3 "" H 5700 5450 50  0001 C CNN
+	1    5700 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x07_Male J19
+U 1 1 5A65785E
+P 7100 5450
+F 0 "J19" H 7100 5850 50  0000 C CNN
+F 1 "Conn_01x07_Male" H 7100 5050 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm" H 7100 5450 50  0001 C CNN
+F 3 "" H 7100 5450 50  0001 C CNN
+	1    7100 5450
+	-1   0    0    1   
+$EndComp
+$Comp
+L TPS61088 U8
+U 1 1 5A6589F0
+P 8950 2200
+F 0 "U8" H 8950 2950 60  0000 C CNN
+F 1 "TPS61088" H 8950 1450 60  0000 C CNN
+F 2 "w_smd_qfn:pvqfn-n20" H 8950 1900 60  0001 C CNN
+F 3 "" H 8950 1900 60  0001 C CNN
+	1    8950 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x10_Male J20
+U 1 1 5A658AA8
+P 7750 2100
+F 0 "J20" H 7750 2600 50  0000 C CNN
+F 1 "Conn_01x10_Male" H 7750 1500 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm" H 7750 2100 50  0001 C CNN
+F 3 "" H 7750 2100 50  0001 C CNN
+	1    7750 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x11_Male J21
+U 1 1 5A658C8B
+P 10200 2150
+F 0 "J21" H 10200 2750 50  0000 C CNN
+F 1 "Conn_01x11_Male" H 10200 1550 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x11_Pitch2.54mm" H 10200 2150 50  0001 C CNN
+F 3 "" H 10200 2150 50  0001 C CNN
+	1    10200 2150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Conn_01x10_Male J22
+U 1 1 5A65990D
+P 3900 6800
+F 0 "J22" H 3900 7300 50  0000 C CNN
+F 1 "Conn_01x10_Male" H 3900 6200 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm" H 3900 6800 50  0001 C CNN
+F 3 "" H 3900 6800 50  0001 C CNN
+	1    3900 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x10_Male J23
+U 1 1 5A659AED
+P 6150 6800
+F 0 "J23" H 6150 7300 50  0000 C CNN
+F 1 "Conn_01x10_Male" H 6150 6200 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm" H 6150 6800 50  0001 C CNN
+F 3 "" H 6150 6800 50  0001 C CNN
+	1    6150 6800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L LM21215 U9
+U 1 1 5A659BF9
+P 5000 6800
+F 0 "U9" H 4600 7450 60  0000 C CNN
+F 1 "LM21215" H 4750 6050 60  0000 C CNN
+F 2 "SMD_Packages:SSOP-20" H 5350 7250 60  0001 C CNN
+F 3 "" H 5350 7250 60  0001 C CNN
+	1    5000 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L bq297xx U10
+U 1 1 5A65A52C
+P 2500 3550
+F 0 "U10" H 2300 3750 60  0000 C CNN
+F 1 "bq297xx" H 2450 3350 60  0000 C CNN
+F 2 "Housings_SON:WSON6_1.5x1.5mm_Pitch0.5mm" H 2350 3250 60  0001 C CNN
+F 3 "" H 2350 3250 60  0001 C CNN
+	1    2500 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x03_Male J24
+U 1 1 5A65A634
+P 1850 3550
+F 0 "J24" H 1850 3750 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 1850 3350 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 1850 3550 50  0001 C CNN
+F 3 "" H 1850 3550 50  0001 C CNN
+	1    1850 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x03_Male J25
+U 1 1 5A65A76B
+P 3150 3550
+F 0 "J25" H 3150 3750 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 3150 3350 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 3150 3550 50  0001 C CNN
+F 3 "" H 3150 3550 50  0001 C CNN
+	1    3150 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L INA214 U11
+U 1 1 5A838D24
+P 9000 4100
+F 0 "U11" H 9000 3800 60  0000 C CNN
+F 1 "INA214" H 9000 4400 60  0000 C CNN
+F 2 "kicad-libraries:SC70-6" H 9000 4400 60  0001 C CNN
+F 3 "" H 9000 4400 60  0001 C CNN
+	1    9000 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x03_Male J26
+U 1 1 5A83967A
+P 8200 4050
+F 0 "J26" H 8200 4250 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 8200 3850 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 8200 4050 50  0001 C CNN
+F 3 "" H 8200 4050 50  0001 C CNN
+	1    8200 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x03_Male J27
+U 1 1 5A83974C
+P 9900 4100
+F 0 "J27" H 9900 4300 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 9900 3900 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 9900 4100 50  0001 C CNN
+F 3 "" H 9900 4100 50  0001 C CNN
+	1    9900 4100
+	-1   0    0    -1  
+$EndComp
 Wire Wire Line
 	1000 6400 1150 6400
 Wire Wire Line
@@ -545,50 +853,6 @@ Wire Wire Line
 	7050 1450 6500 1450
 Wire Wire Line
 	6500 1450 6500 1600
-$Comp
-L Conn_01x03_Male J5
-U 1 1 5A652F7D
-P 1950 2000
-F 0 "J5" H 1950 2200 50  0000 C CNN
-F 1 "Conn_01x03_Male" H 1950 1800 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 1950 2000 50  0001 C CNN
-F 3 "" H 1950 2000 50  0001 C CNN
-	1    1950 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_01x03_Male J2
-U 1 1 5A653764
-P 1850 2850
-F 0 "J2" H 1850 3050 50  0000 C CNN
-F 1 "Conn_01x03_Male" H 1850 2650 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 1850 2850 50  0001 C CNN
-F 3 "" H 1850 2850 50  0001 C CNN
-	1    1850 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_01x03_Male J11
-U 1 1 5A6537DA
-P 3150 2850
-F 0 "J11" H 3150 3050 50  0000 C CNN
-F 1 "Conn_01x03_Male" H 3150 2650 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 3150 2850 50  0001 C CNN
-F 3 "" H 3150 2850 50  0001 C CNN
-	1    3150 2850
-	-1   0    0    1   
-$EndComp
-$Comp
-L Conn_01x02_Male J12
-U 1 1 5A653C0B
-P 1700 5150
-F 0 "J12" H 1700 5250 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 1700 4950 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 1700 5150 50  0001 C CNN
-F 3 "" H 1700 5150 50  0001 C CNN
-	1    1700 5150
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	1800 4950 1800 4750
 Wire Wire Line
@@ -628,105 +892,6 @@ Wire Wire Line
 Wire Wire Line
 	2950 4750 2950 4550
 Connection ~ 2950 4650
-$Comp
-L Conn_01x02_Male J13
-U 1 1 5A654934
-P 2450 5150
-F 0 "J13" H 2450 5250 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 2450 4950 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 2450 5150 50  0001 C CNN
-F 3 "" H 2450 5150 50  0001 C CNN
-	1    2450 5150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Conn_01x02_Male J14
-U 1 1 5A6549DB
-P 3150 5150
-F 0 "J14" H 3150 5250 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 3150 4950 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 3150 5150 50  0001 C CNN
-F 3 "" H 3150 5150 50  0001 C CNN
-	1    3150 5150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SM74611 D1
-U 1 1 5A654F6F
-P 2500 4600
-F 0 "D1" H 2600 4700 60  0000 C CNN
-F 1 "SM74611" H 2550 4450 60  0000 C CNN
-F 2 "Diodes_SMD:DD-PAK_TO263_SingleDiode" V 2500 4600 60  0001 C CNN
-F 3 "" V 2500 4600 60  0001 C CNN
-	1    2500 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L SM74611 D3
-U 1 1 5A654FF1
-P 3200 4600
-F 0 "D3" H 3300 4700 60  0000 C CNN
-F 1 "SM74611" H 3250 4450 60  0000 C CNN
-F 2 "Diodes_SMD:DD-PAK_TO263_SingleDiode" V 3200 4600 60  0001 C CNN
-F 3 "" V 3200 4600 60  0001 C CNN
-	1    3200 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L BSC026NE2LS5 Q2
-U 1 1 5A65535B
-P 2550 1300
-F 0 "Q2" H 2400 1550 60  0000 C CNN
-F 1 "BSC026NE2LS5" H 2700 1050 60  0000 C CNN
-F 2 "Housings_SON:VSONP-8-1EP_5x6_Pitch1.27mm" H 2550 1300 60  0001 C CNN
-F 3 "" H 2550 1300 60  0001 C CNN
-	1    2550 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_01x03_Male J15
-U 1 1 5A655477
-P 1950 1250
-F 0 "J15" H 1950 1450 50  0000 C CNN
-F 1 "Conn_01x03_Male" H 1950 1050 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 1950 1250 50  0001 C CNN
-F 3 "" H 1950 1250 50  0001 C CNN
-	1    1950 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L INA214 U6
-U 1 1 5A655CCC
-P 9700 5950
-F 0 "U6" H 9700 5650 60  0000 C CNN
-F 1 "INA214" H 9700 6250 60  0000 C CNN
-F 2 "kicad-libraries:SC70-6" H 9700 6250 60  0001 C CNN
-F 3 "" H 9700 6250 60  0001 C CNN
-	1    9700 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_01x03_Male J16
-U 1 1 5A655D54
-P 8950 5950
-F 0 "J16" H 8950 6150 50  0000 C CNN
-F 1 "Conn_01x03_Male" H 8950 5750 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 8950 5950 50  0001 C CNN
-F 3 "" H 8950 5950 50  0001 C CNN
-	1    8950 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_01x03_Male J17
-U 1 1 5A655DF5
-P 10450 5950
-F 0 "J17" H 10450 6150 50  0000 C CNN
-F 1 "Conn_01x03_Male" H 10450 5750 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 10450 5950 50  0001 C CNN
-F 3 "" H 10450 5950 50  0001 C CNN
-	1    10450 5950
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	10100 6100 10150 6100
 Wire Wire Line
@@ -763,39 +928,6 @@ Wire Wire Line
 	9150 5850 9300 5850
 Wire Wire Line
 	9300 5850 9300 5950
-$Comp
-L ADA4891-4 U7
-U 1 1 5A65736D
-P 6400 5450
-F 0 "U7" H 6200 5850 60  0000 C CNN
-F 1 "ADA4891-4" H 6400 5050 60  0000 C CNN
-F 2 "SMD_Packages:SSOP-14" H 6600 5400 60  0001 C CNN
-F 3 "" H 6600 5400 60  0001 C CNN
-	1    6400 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_01x07_Male J18
-U 1 1 5A65740A
-P 5700 5450
-F 0 "J18" H 5700 5850 50  0000 C CNN
-F 1 "Conn_01x07_Male" H 5700 5050 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm" H 5700 5450 50  0001 C CNN
-F 3 "" H 5700 5450 50  0001 C CNN
-	1    5700 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_01x07_Male J19
-U 1 1 5A65785E
-P 7100 5450
-F 0 "J19" H 7100 5850 50  0000 C CNN
-F 1 "Conn_01x07_Male" H 7100 5050 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm" H 7100 5450 50  0001 C CNN
-F 3 "" H 7100 5450 50  0001 C CNN
-	1    7100 5450
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	8350 1700 7950 1700
 Wire Wire Line
@@ -970,39 +1102,6 @@ Wire Wire Line
 	10550 1500 10000 1500
 Wire Wire Line
 	10000 1500 10000 1650
-$Comp
-L TPS61088 U8
-U 1 1 5A6589F0
-P 8950 2200
-F 0 "U8" H 8950 2950 60  0000 C CNN
-F 1 "TPS61088" H 8950 1450 60  0000 C CNN
-F 2 "w_smd_qfn:pvqfn-n20" H 8950 1900 60  0001 C CNN
-F 3 "" H 8950 1900 60  0001 C CNN
-	1    8950 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_01x10_Male J20
-U 1 1 5A658AA8
-P 7750 2100
-F 0 "J20" H 7750 2600 50  0000 C CNN
-F 1 "Conn_01x10_Male" H 7750 1500 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm" H 7750 2100 50  0001 C CNN
-F 3 "" H 7750 2100 50  0001 C CNN
-	1    7750 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_01x11_Male J21
-U 1 1 5A658C8B
-P 10200 2150
-F 0 "J21" H 10200 2750 50  0000 C CNN
-F 1 "Conn_01x11_Male" H 10200 1550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x11_Pitch2.54mm" H 10200 2150 50  0001 C CNN
-F 3 "" H 10200 2150 50  0001 C CNN
-	1    10200 2150
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	4100 6400 4250 6400
 Wire Wire Line
@@ -1127,70 +1226,44 @@ Wire Wire Line
 	5800 7150 5800 7300
 Wire Wire Line
 	5800 7300 5950 7300
-$Comp
-L Conn_01x10_Male J22
-U 1 1 5A65990D
-P 3900 6800
-F 0 "J22" H 3900 7300 50  0000 C CNN
-F 1 "Conn_01x10_Male" H 3900 6200 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm" H 3900 6800 50  0001 C CNN
-F 3 "" H 3900 6800 50  0001 C CNN
-	1    3900 6800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_01x10_Male J23
-U 1 1 5A659AED
-P 6150 6800
-F 0 "J23" H 6150 7300 50  0000 C CNN
-F 1 "Conn_01x10_Male" H 6150 6200 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm" H 6150 6800 50  0001 C CNN
-F 3 "" H 6150 6800 50  0001 C CNN
-	1    6150 6800
-	-1   0    0    -1  
-$EndComp
-$Comp
-L LM21215 U9
-U 1 1 5A659BF9
-P 5000 6800
-F 0 "U9" H 4600 7450 60  0000 C CNN
-F 1 "LM21215" H 4750 6050 60  0000 C CNN
-F 2 "SMD_Packages:SSOP-20" H 5350 7250 60  0001 C CNN
-F 3 "" H 5350 7250 60  0001 C CNN
-	1    5000 6800
-	1    0    0    -1  
-$EndComp
-$Comp
-L bq297xx U10
-U 1 1 5A65A52C
-P 2500 3550
-F 0 "U10" H 2300 3750 60  0000 C CNN
-F 1 "bq297xx" H 2450 3350 60  0000 C CNN
-F 2 "Housings_SON:WSON6_1.5x1.5mm_Pitch0.5mm" H 2350 3250 60  0001 C CNN
-F 3 "" H 2350 3250 60  0001 C CNN
-	1    2500 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_01x03_Male J24
-U 1 1 5A65A634
-P 1850 3550
-F 0 "J24" H 1850 3750 50  0000 C CNN
-F 1 "Conn_01x03_Male" H 1850 3350 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 1850 3550 50  0001 C CNN
-F 3 "" H 1850 3550 50  0001 C CNN
-	1    1850 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_01x03_Male J25
-U 1 1 5A65A76B
-P 3150 3550
-F 0 "J25" H 3150 3750 50  0000 C CNN
-F 1 "Conn_01x03_Male" H 3150 3350 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 3150 3550 50  0001 C CNN
-F 3 "" H 3150 3550 50  0001 C CNN
-	1    3150 3550
-	-1   0    0    1   
-$EndComp
+Wire Wire Line
+	8400 3950 8400 4000
+Wire Wire Line
+	8400 4000 8500 4000
+Wire Wire Line
+	8500 4000 8500 4100
+Wire Wire Line
+	8500 4100 8600 4100
+Wire Wire Line
+	8400 4050 8450 4050
+Wire Wire Line
+	8450 4050 8450 4250
+Wire Wire Line
+	8450 4250 8600 4250
+Wire Wire Line
+	8400 4150 8500 4150
+Wire Wire Line
+	8500 4150 8500 3950
+Wire Wire Line
+	8500 3950 8600 3950
+Wire Wire Line
+	9400 4100 9600 4100
+Wire Wire Line
+	9600 4100 9600 4000
+Wire Wire Line
+	9600 4000 9700 4000
+Wire Wire Line
+	9400 4250 9550 4250
+Wire Wire Line
+	9550 4250 9550 4150
+Wire Wire Line
+	9550 4150 9700 4150
+Wire Wire Line
+	9700 4150 9700 4100
+Wire Wire Line
+	9400 3950 9500 3950
+Wire Wire Line
+	9500 3950 9500 4200
+Wire Wire Line
+	9500 4200 9700 4200
 $EndSCHEMATC

@@ -519,6 +519,39 @@ F 3 "" H 9900 4100 50  0001 C CNN
 	1    9900 4100
 	-1   0    0    -1  
 $EndComp
+$Comp
+L INA214 U12
+U 1 1 5A95F2A6
+P 10200 3500
+F 0 "U12" H 10200 3200 60  0000 C CNN
+F 1 "INA214" H 10200 3800 60  0000 C CNN
+F 2 "kicad-libraries:SC70-6" H 10200 3800 60  0001 C CNN
+F 3 "" H 10200 3800 60  0001 C CNN
+	1    10200 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x03_Male J28
+U 1 1 5A95F31C
+P 9450 3450
+F 0 "J28" H 9450 3650 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 9450 3250 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 9450 3450 50  0001 C CNN
+F 3 "" H 9450 3450 50  0001 C CNN
+	1    9450 3450
+	1    0    0    1   
+$EndComp
+$Comp
+L Conn_01x03_Male J29
+U 1 1 5A95F470
+P 10950 3450
+F 0 "J29" H 10950 3650 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 10950 3250 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 10950 3450 50  0001 C CNN
+F 3 "" H 10950 3450 50  0001 C CNN
+	1    10950 3450
+	-1   0    0    1   
+$EndComp
 Wire Wire Line
 	1000 6400 1150 6400
 Wire Wire Line
@@ -1266,4 +1299,30 @@ Wire Wire Line
 	9500 3950 9500 4200
 Wire Wire Line
 	9500 4200 9700 4200
+Wire Wire Line
+	9650 3350 9800 3350
+Wire Wire Line
+	9650 3450 9750 3450
+Wire Wire Line
+	9750 3450 9750 3650
+Wire Wire Line
+	9750 3650 9800 3650
+Wire Wire Line
+	9650 3550 9700 3550
+Wire Wire Line
+	9700 3550 9700 3500
+Wire Wire Line
+	9700 3500 9800 3500
+Wire Wire Line
+	10750 3550 10600 3550
+Wire Wire Line
+	10600 3550 10600 3500
+Wire Wire Line
+	10750 3450 10700 3450
+Wire Wire Line
+	10700 3450 10700 3650
+Wire Wire Line
+	10700 3650 10600 3650
+Wire Wire Line
+	10750 3350 10600 3350
 $EndSCHEMATC
