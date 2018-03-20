@@ -1,4 +1,4 @@
-update=Saturday, February 10, 2018 'pmt' 01:45:30 pm
+update=Saturday, February 17, 2018 'pmt' 03:13:43 pm
 version=1
 last_client=kicad
 [pcbnew]
@@ -66,3 +66,4 @@ LibName34=tps61088
 LibName35=cdh_lib
 LibName36=ads7952
 LibName37=tps630250
+LibName38=ref5025
