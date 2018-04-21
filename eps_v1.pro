@@ -1,4 +1,4 @@
-update=Saturday, February 17, 2018 'pmt' 03:13:43 pm
+update=Saturday, April 21, 2018 'pmt' 02:46:54 pm
 version=1
 last_client=kicad
 [pcbnew]
@@ -67,3 +67,13 @@ LibName35=cdh_lib
 LibName36=ads7952
 LibName37=tps630250
 LibName38=ref5025
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
